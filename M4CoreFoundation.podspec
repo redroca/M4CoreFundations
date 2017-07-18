@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'M4CoreFoundation/Classes/ViewControllers/*.{h,m}', 'M4CoreFoundation/Classes/Utility/*.{h,m}',  'M4CoreFoundation/Classes/UIKit/*.{h,m}', 
                   'M4CoreFoundation/Classes/SNS/*.{h,m}', 'M4CoreFoundation/Classes/Notifications/*.{h,m}', 'M4CoreFoundation/Classes/Networking/*.{h,m}', 
                   'M4CoreFoundation/Classes/Macros/*.{h}', 'M4CoreFoundation/Classes/Foundation/*.{h,m}', 'M4CoreFoundation/Classes/Category/*.{h,m}', 
-                  'M4CoreFoundation/Classes/BaseClass/*.{h,m}'
+                  'M4CoreFoundation/Classes/BaseClass/*.{h,m}', 'M4CoreFoundation/Classes/*.{h}'
 
   s.frameworks = "UIKit", "Foundation", "WebKit", "QuartzCore", "MobileCoreServices"
   s.dependency 'MJRefresh'
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   #   'M4CoreFoundation' => ['M4CoreFoundation/Assets/*.png']
   # }
 
- s.public_header_files = 'Pod/Classes/*.h'
+ # s.public_header_files = 'Pod/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
