@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'M4CoreFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'M4CoreFoundation use for company projects.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'M4CoreFoundation/Classes/**/*'
+  s.source_files = 'M4CoreFoundation/Classes/ViewControllers/*', 'M4CoreFoundation/Classes/Utility/*',  'M4CoreFoundation/Classes/UIKit/*', 
+                  'M4CoreFoundation/Classes/SNS/*', 'M4CoreFoundation/Classes/Notifications/*', 'M4CoreFoundation/Classes/Networking/*', 
+                  'M4CoreFoundation/Classes/Macros/*', 'M4CoreFoundation/Classes/Foundation/*', 'M4CoreFoundation/Classes/Category/*', 
 
   s.frameworks = "UIKit", "Foundation", "WebKit", "QuartzCore", "MobileCoreServices"
   s.dependency 'MJRefresh'
