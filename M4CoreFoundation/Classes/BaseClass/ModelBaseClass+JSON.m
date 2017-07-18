@@ -7,8 +7,7 @@
 //
 
 #import "ModelBaseClass+JSON.h"
-
-#import "CoreHeader.h"
+#import "NSObject+JSON.h"
 
 @implementation ModelBaseClass (JSON)
 
