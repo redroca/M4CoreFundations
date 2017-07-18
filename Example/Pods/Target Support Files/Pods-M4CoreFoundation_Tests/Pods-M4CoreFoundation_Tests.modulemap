@@ -1,0 +1,6 @@
+framework module Pods_M4CoreFoundation_Tests {
+  umbrella header "Pods-M4CoreFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+use_frameworks!
+
+target 'M4CoreFoundation_Example' do
+  pod 'M4CoreFoundation', :path => '../'
+
+  target 'M4CoreFoundation_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  pod 'MJRefresh'
+  pod 'AFNetworking'
+  pod 'YYModel'
+  pod 'YYWebImage'
+  pod 'YYCategories'
+  end
+end
