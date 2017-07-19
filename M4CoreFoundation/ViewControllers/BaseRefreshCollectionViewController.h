@@ -1,6 +1,5 @@
 //
 //  BaseRefreshCollectionViewController.h
-//  Test
 //
 //  Created by hades on 2017/7/13.
 //  Copyright © 2017年 Hades. All rights reserved.

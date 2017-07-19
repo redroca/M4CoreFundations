@@ -1,6 +1,5 @@
 //
 //  DeviceMacro.h
-//  M4CLibrary
 //
 //  Created by hades on 2017/7/11.
 //  Copyright © 2017年 Hades. All rights reserved.

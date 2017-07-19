@@ -1,6 +1,5 @@
 //
 //  BaseUIViewController+NavigationButton.h
-//  SmallCP
 //
 //  Created by hades on 2017/7/12.
 //  Copyright © 2017年 Ananwu. All rights reserved.
