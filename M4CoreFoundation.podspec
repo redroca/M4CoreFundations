@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'M4CoreFoundation/ViewControllers/*.{h,m}', 'M4CoreFoundation/Utility/*.{h,m}',  'M4CoreFoundation/UIKit/*.{h,m}', 
                   'M4CoreFoundation/SNS/*.{h,m}', 'M4CoreFoundation/Notifications/*.{h,m}', 'M4CoreFoundation/Networking/*.{h,m}', 
                   'M4CoreFoundation/Macros/*.{h}', 'M4CoreFoundation/Foundation/*.{h,m}', 'M4CoreFoundation/Category/*.{h,m}', 
-                  'M4CoreFoundation/BaseClass/*.{h,m}', 'M4CoreFoundation/*.{h}'
+                  'BaseClass/*.{h,m}', 'M4CoreFoundation/*.{h}'
 
   s.frameworks = "UIKit", "Foundation", "WebKit", "QuartzCore", "MobileCoreServices"
   s.dependency 'MJRefresh'
