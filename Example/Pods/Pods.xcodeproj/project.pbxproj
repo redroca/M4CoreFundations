@@ -570,17 +570,17 @@
 		2712E5C97E2E5E906524B3E1751D2CF9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		27A4B97A86CABE826E2A2D703323D799 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B0E1763A243B4D3296B0C7EF038CA6 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		28770D9C1F1E6653002F80ED /* BaseClass */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BaseClass; path = ../BaseClass; sourceTree = "<group>"; };
-		28770D9D1F1E6653002F80ED /* Category */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Category; path = ../Category; sourceTree = "<group>"; };
-		28770D9E1F1E6653002F80ED /* Foundation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Foundation; path = ../Foundation; sourceTree = "<group>"; };
-		28770D9F1F1E6653002F80ED /* M4CoreFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = M4CoreFoundation.h; path = ../M4CoreFoundation.h; sourceTree = "<group>"; };
-		28770DA01F1E6653002F80ED /* Macros */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Macros; path = ../Macros; sourceTree = "<group>"; };
-		28770DA11F1E6653002F80ED /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Networking; path = ../Networking; sourceTree = "<group>"; };
-		28770DA21F1E6653002F80ED /* Notifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Notifications; path = ../Notifications; sourceTree = "<group>"; };
-		28770DA31F1E6653002F80ED /* SNS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SNS; path = ../SNS; sourceTree = "<group>"; };
-		28770DA41F1E6653002F80ED /* UIKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UIKit; path = ../UIKit; sourceTree = "<group>"; };
-		28770DA51F1E6653002F80ED /* Utility */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utility; path = ../Utility; sourceTree = "<group>"; };
-		28770DA61F1E6653002F80ED /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewControllers; path = ../ViewControllers; sourceTree = "<group>"; };
+		28770DA71F1EF73A002F80ED /* BaseClass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BaseClass; sourceTree = "<group>"; };
+		28770DA81F1EF73A002F80ED /* Category */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Category; sourceTree = "<group>"; };
+		28770DA91F1EF73A002F80ED /* Foundation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Foundation; sourceTree = "<group>"; };
+		28770DAA1F1EF73A002F80ED /* M4CoreFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M4CoreFoundation.h; sourceTree = "<group>"; };
+		28770DAB1F1EF73A002F80ED /* Macros */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Macros; sourceTree = "<group>"; };
+		28770DAC1F1EF73A002F80ED /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
+		28770DAD1F1EF73A002F80ED /* Notifications */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Notifications; sourceTree = "<group>"; };
+		28770DAE1F1EF73A002F80ED /* SNS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SNS; sourceTree = "<group>"; };
+		28770DAF1F1EF73A002F80ED /* UIKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIKit; sourceTree = "<group>"; };
+		28770DB01F1EF73A002F80ED /* Utility */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utility; sourceTree = "<group>"; };
+		28770DB11F1EF73A002F80ED /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
 		28785DC38A3E83596A6A3FC02A3038DE /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		28FA4B30AC7419F6F79360B33DD176F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2942373B1CDAB488641F8D288407A0E2 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
@@ -1421,28 +1421,20 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
-		6EE587304790D1C770B3C564D0E11795 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				28770D9C1F1E6653002F80ED /* BaseClass */,
-				28770D9D1F1E6653002F80ED /* Category */,
-				28770D9E1F1E6653002F80ED /* Foundation */,
-				28770D9F1F1E6653002F80ED /* M4CoreFoundation.h */,
-				28770DA01F1E6653002F80ED /* Macros */,
-				28770DA11F1E6653002F80ED /* Networking */,
-				28770DA21F1E6653002F80ED /* Notifications */,
-				28770DA31F1E6653002F80ED /* SNS */,
-				28770DA41F1E6653002F80ED /* UIKit */,
-				28770DA51F1E6653002F80ED /* Utility */,
-				28770DA61F1E6653002F80ED /* ViewControllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		6FD41923C1FB20B3EFF488B30F11BA29 /* M4CoreFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				6EE587304790D1C770B3C564D0E11795 /* Classes */,
+				28770DA71F1EF73A002F80ED /* BaseClass */,
+				28770DA81F1EF73A002F80ED /* Category */,
+				28770DA91F1EF73A002F80ED /* Foundation */,
+				28770DAA1F1EF73A002F80ED /* M4CoreFoundation.h */,
+				28770DAB1F1EF73A002F80ED /* Macros */,
+				28770DAC1F1EF73A002F80ED /* Networking */,
+				28770DAD1F1EF73A002F80ED /* Notifications */,
+				28770DAE1F1EF73A002F80ED /* SNS */,
+				28770DAF1F1EF73A002F80ED /* UIKit */,
+				28770DB01F1EF73A002F80ED /* Utility */,
+				28770DB11F1EF73A002F80ED /* ViewControllers */,
 			);
 			path = M4CoreFoundation;
 			sourceTree = "<group>";

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'M4CoreFoundation'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'M4CoreFoundation use for company projects.'
 
 # This description is used to generate tags and improve search results.
