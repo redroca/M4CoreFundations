@@ -67,6 +67,7 @@
 //Networking
 #import "RESTfulAPIWrapper.h"
 #import "HTTPStatusCodes.h"
+#improt "RESTfulBaseService.h"
 #import "ServiceResultInfo.h"
 
 //Notifications
