@@ -24,7 +24,12 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - M4CoreFoundation (0.1.0)
+  - M4CoreFoundation (0.2.0):
+    - AFNetworking
+    - MJRefresh
+    - YYCategories
+    - YYModel
+    - YYWebImage
   - MJRefresh (3.1.12)
   - Specta (1.0.6)
   - YYCache (1.0.4)
@@ -60,7 +65,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  M4CoreFoundation: 0c71069c8eeebf8745548e74100140c812474fab
+  M4CoreFoundation: d215b7f49f2bc6611834798fa3ee75e18c33ee23
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

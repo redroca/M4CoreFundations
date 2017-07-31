@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/M4CoreFoundation"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/M4CoreFoundation" "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/YYCache" "$PODS_CONFIGURATION_BUILD_DIR/YYCategories" "$PODS_CONFIGURATION_BUILD_DIR/YYImage" "$PODS_CONFIGURATION_BUILD_DIR/YYModel" "$PODS_CONFIGURATION_BUILD_DIR/YYWebImage"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/M4CoreFoundation/M4CoreFoundation.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "M4CoreFoundation"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/M4CoreFoundation/M4CoreFoundation.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh/MJRefresh.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YYCache/YYCache.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YYCategories/YYCategories.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YYImage/YYImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YYModel/YYModel.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/YYWebImage/YYWebImage.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "M4CoreFoundation" -framework "MJRefresh" -framework "YYCache" -framework "YYCategories" -framework "YYImage" -framework "YYModel" -framework "YYWebImage"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -90,29 +90,29 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Expecta/Expecta.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Expecta+Snapshots/Expecta_Snapshots.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJRefresh/MJRefresh.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Specta/Specta.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYCache/YYCache.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYCategories/YYCategories.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYImage/YYImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYModel/YYModel.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYWebImage/YYWebImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Expecta/Expecta.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Expecta+Snapshots/Expecta_Snapshots.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Specta/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Expecta/Expecta.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Expecta+Snapshots/Expecta_Snapshots.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJRefresh/MJRefresh.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Specta/Specta.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYCache/YYCache.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYCategories/YYCategories.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYImage/YYImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYModel/YYModel.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YYWebImage/YYWebImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Expecta/Expecta.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Expecta+Snapshots/Expecta_Snapshots.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Specta/Specta.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
