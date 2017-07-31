@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   M4CoreFoundation use for company projects.
                        DESC
 
-  s.homepage         = 'https://github.com/Magic4Cloud/'
+  s.homepage         = 'https://github.com/redroca/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hades' => '270452746@qq.com' }
-  s.source           = { :git => 'https://github.com/Magic4Cloud/M4CoreFundations.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/redroca/M4CoreFundations.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
